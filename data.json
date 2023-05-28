@@ -1,0 +1,747 @@
+{
+	"english": 
+	{
+		"MainMenuButtons":
+		{
+			"SMART_SEARCH_BTN": "\ud83c\udfac Smart Search",
+			"WE_RECOMMEND_BTN": "\ud83c\udfaf Our choice",
+			"NO_PREFERENCES_BTN": "\ud83d\udc40 No idea",
+			"SEND_FEEDBACK_BTN": "\ud83c\udfad Feedback"
+		},
+
+		"LANG_CMD": 
+		{
+			"START_DESC": "Launch me",
+			"HELP_DESC": "Show help",
+			"LANG_DESC": "Change language to \ud83d\udc3b",
+			"SETTINGS_DESC": "Set me up",
+			"OFFERMOVIE_DESC": "Expand library",
+			
+			"LANG_DESC_GENERAL": "Change language",
+
+			"ON_CHANGED_LANGUAGE": ["English, so be it!", "Now we can speak in English\ud83e\uddd0", "Switched to English"]
+		},
+
+		"GOOGLE_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSdxvEjsuCvtJDI7iAZs0zIYN6iln3tZgzn3zHanfJxeHGgrjA/viewform",
+
+		"ENG_LANG_BTN": "\u2615\ufe0f English",
+
+		"MOVIE_OFFERING_BACK_BTN": "\u2199\ufe0f Finish offering",
+		"MOVIE_ADDING_BACK_BTN": "\u2199\ufe0f Finish adding",
+
+		"InlineKeyboardTexts":
+		{
+			"UserMood": 
+			{
+				"DEPRESSION_BTN": "\ud83c\udf27 Depressed",
+				"CHEERFUL_BTN": "\ud83d\udc83 Сheerful",
+				"FIGHTING_SPIRIT_BTN": "\ud83d\ude3c Fighting",
+				"FAMILY_BTN": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 Family",
+				"FRIENDS_BTN": "\ud83c\udf7b Friends",
+				"LOVE_BTN": "\ud83d\udc8b Love"
+			},
+
+			"Catalogue": 
+			{
+				"MOVIE_BTN": "\ud83d\udcfc Movie",
+				"SERIES_BTN": "\ud83c\udf9e\ufe0f Series"
+			},
+
+			"Genre": 
+			{
+				"Main": 
+				{
+					"COMEDY_BTN": "\ud83d\udd7a Comedy",
+					"DRAMA_BTN": "\ud83d\udc94 Drama",
+					"MELODRAMA_BTN": "\ud83d\udc98 Melodrama",
+					"THRILLER_BTN": "\ud83d\udd2b Thriller",
+					"ACTION_BTN": "\ud83d\udd25 Action",
+					"FICTION_BTN": "\ud83e\uddd9\ud83c\udffb Fiction"	
+				},
+
+				"More": 
+				{
+					"DETECTIVE_BTN": "\ud83d\udd75\ud83c\udffc Detective",
+					"FAMILY_BTN": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc66 Family",
+					"SPORT_BTN": "\ud83c\udfc0 Sport",
+					"FANTASY_BTN": "\ud83d\udd2e Fantasy",
+					"ANIMATION_BTN": "\ud83e\uddf8 Animation",
+					"ADVENTURE_BTN": "\ud83c\udf92 Adventure",
+					"BIOGRAPHY_BTN": "\ud83d\udcd6 Biography",
+					"CRIMINAL_BTN": "\ud83d\udc65 Criminal",
+					"DOCUMENTARY_BTN": "\ud83c\udfa5 Documentary",
+					"WAR_BTN": "\ud83e\ude96 War",
+					"MUSIC_BTN": "\ud83c\udfbb Music"
+				},
+
+				"MORE_BTN": "More \u21aa"
+			},
+
+			"SSConfirmation": 
+			{
+				"YES_BTN": "\u2714\ufe0f Yes",
+				"NO_BTN": "\u2716\ufe0f No"
+			},
+
+			"SettingsMenu": 
+			{
+				"SETTINGS_BACK_BTN": "\u21d0 Back"
+			},
+
+			"AdminSelection": 
+			{
+				"FEEDBACKS_BTN": "\ud83c\udfad See feedbacks",
+				"OFFERS_BTN": "\ud83d\udceb See Post",
+				"ADD_ADMIN_MOVIE_BTN": "\ud83d\udcfc Add movie",
+				"EXCEL_BTN": "\ud83d\uddc4 Excel",
+				"UPDATE_DB_BTN": "\ud83d\uddff Update DB",
+
+				"ACCEPT_BTN": "\u2705 Accept",
+				"CANCEL_BTN": "\u274c Cancel",
+				"MOVIE_OFFERS_BACK_BTN": "\u2b05 Back",
+
+				"NEXT_FEEDBACK_BTN": "Next \u21a6",
+				"FEEDBACKS_BACK_BTN": "\u21a4 Back",
+
+				"EXIT_ADMIN_MODE_BTN": "\ud83d\ude48 Exit"
+			},
+
+			"SFVerdict":
+			{
+				"NOT_BAD_BTN": "Not that bad after all \ud83d\ude0c",
+				"GOOD_BTN": "Not what I expected \ud83e\udee4",
+				"DONT_KNOW_BTN": "Mixed feelings \ud83e\udd14"
+			},
+
+			"WeRecommend": {
+				"WR_PREVIOUS_MOVIE_BTN": "\u2b05 Previous one",
+				"WR_NEXT_MOVIE_BTN": "Next one \u27a1",
+				"WR_WATCH_BTN": "Watch \ud83d\uddff",
+				"WR_VIEW_MOVIE_BTN": "Watch \ud83d\udcfa",
+				"WR_BACK_BTN": "\u2199\ufe0f To main menu"
+			},
+
+			"SF_GOOGLE_FORM_BTN": "Google form",
+
+			"NP_NEXT_MOVIE_BTN": "Next one \u27a1",
+
+
+			"SS_BACK_BTN": "\u2b05 Back",
+			"SF_BACK_BTN": "\u2199\ufe0f To main menu",
+			"NP_BACK_BTN": "\u2199\ufe0f To main menu"
+		},
+
+		"InlineKeyboardCallbacks":
+		{
+			"UserMood": 
+			{
+				"DEPRESSION_CB": "depression",
+				"CHEERFUL_CB": "cheerful",
+				"FIGHTING_SPIRIT_CB": "fighting",
+				"FAMILY_CB": "family",
+				"FRIENDS_CB": "friends",
+				"LOVE_CB": "love"
+			},
+
+			"Catalogue": 
+			{
+				"MOVIE_CB": "movie",
+				"SERIES_CB": "series"
+			},
+
+			"Genre": 
+			{
+				"Main": 
+				{
+					"COMEDY_CB": "comedy",
+					"DRAMA_CB": "drama",
+					"MELODRAMA_CB": "melodrama",
+					"THRILLER_CB": "thriller",
+					"ACTION_CB": "action",
+					"FICTION_CB": "fiction"
+				},
+
+				"More": 
+				{
+					"DETECTIVE_CB": "detective",
+					"FAMILY_CB": "family",
+					"SPORT_CB": "sport",
+					"FANTASY_CB": "fantasy",
+					"ANIMATION_CB": "animation",
+					"ADVENTURE_CB": "adventure",
+					"BIOGRAPHY_CB": "biography",
+					"CRIMINAL_CB": "criminal",
+					"DOCUMENTARY_CB": "documentary",
+					"WAR_CB": "war",
+					"MUSIC_CB": "music"
+				},
+
+				"MORE_CB": "more"
+			},
+
+			"SSConfirmation": 
+			{
+				"YES_CB": "yes",
+				"NO_CB": "no"
+			},
+
+			"SettingsMenu": 
+			{
+				"SETTINGS_BACK_CB": "settings_back"
+			},
+
+			"AdminSelection": 
+			{
+				"FEEDBACKS_CB": "feedbacks_cb",
+				"OFFERS_CB": "offers_cb",
+				"ADD_ADMIN_MOVIE_CB": "add_admin_movie_cb",
+				"EXCEL_CB": "excel_cb",
+				"UPDATE_DB_CB": "update_db_cb",
+
+				"ACCEPT_CB": "accept_cb",
+				"CANCEL_CB": "cancel_cb",
+				"MOVIE_OFFERS_BACK_CB": "movie_offers_back_cb",
+
+				"NEXT_FEEDBACK_CB": "next_feedback_cb",
+				"FEEDBACKS_BACK_CB": "feedbacks_back_cb",
+
+				"EXIT_ADMIN_MODE_CB": "exit"
+			},
+
+			"SFVerdict":
+			{
+				"NOT_BAD_BTN": "not_bad_cb",
+				"GOOD_BTN": "good_cb",
+				"DONT_KNOW_BTN": "dont_know_cb"
+			},
+
+			"WeRecommend": {
+				"WR_PREVIOUS_MOVIE_CB": "previous_one_cb",
+				"WR_NEXT_MOVIE_CB": "wr_next_one_cb",
+				"WR_WATCH_CB": "watch_cb",
+				"WR_VIEW_MOVIE_CB": "watch_cb",
+				"WR_BACK_CB": "wr_back_cb"
+			},
+
+			"SF_GOOGLE_FORM_CB": "google_form_cb",
+
+			"NP_NEXT_MOVIE_CB": "np_next_one_cb",
+
+
+			"SS_BACK_CB": "ss_back_cb",
+			"SF_BACK_CB": "sf_back_cb",
+			"NP_BACK_CB": "np_back_cb"
+		},
+
+		"BOT_WELCOME_MESSAGES": ["Welcome {user_name}!\nI'm - <b>{bot_name}</b>, created to be your own movie-guide\nLet's pick some movie", "Howdy {user_name}!\nMy name's <b>{bot_name}</b>, an avid lover of movies\nLet me find you some good movie"],
+		"BOT_SECOND_WELCOME_MESSAGES": ["As far as I remember, we've already got acquainted... Anyway, let me present my options then", "We're already familiar with each other, if I'm not mistaken... Either way, I'll seize the moment and show you what I can do"],
+
+		"TO_MAIN_MENU": ["What would you want now?", "I wouldn't mind watching some good movie... and you?", "Did you know that I've got one of the most huge movie collections? You can see for yourself\ud83d\ude0f"],
+
+		"OLD_KEYBOARD": ["This is an old one", "This keyboard doesn't work already", "It wasn't a working one"],
+
+		"SETTINGS_MESSAGES": 
+		{
+			"MAIN_SETTINGS_MESSAGES": ["How can I change myself for you\ud83e\udd7a", "Prepared to be better\ud83d\udcaa", "What should we change?"]
+		},
+
+		"OFFERING_MOVIE_MESSAGES": 
+		{
+			"ADDING_ADMIN_MOVIE_FORMAT": "<b>Enter a movie in the following format <u>separated by new lines (Shift + Enter)</u>:</b>\nName RUS\nMood RUS\nMovie/Series RUS\nGenre RUS\nRelease year\nViewing-link RUS\nName ENG\nViewing-link ENG\nPoster-link\n\n<b>Example</b>:\nИнтерстеллар\nДепрессняк\nФильм\nФантастика/Драма/Приключение\n2016\nhttps://sitename.domain/filename\nInterstellar\nhttps://sitename.domain/filename\nhttps://sitename.domain/filename",
+			"ADDING_USER_MOVIE_FORMAT": "Write me as much as you can about the movie (name, release year, some link)\nShare with me, what mood were you in when you were watching this movie? What impressions did it leave you?",
+
+			"OFFERING_MOVIE_INCORRECT": ["Incorrect format, wasn't able to offer your movie", "Cannot recognize your input, check it again and try one more time", "I didn't understand, let's try one more time"],
+			
+			"OFFERING_MOVIE_DEVIATION": ["Finish offering a movie, please", "First, offer a movie", "A movie hasn't been offered yet"],
+
+			"ON_EXIT_OFFERING_MOVIE": ["No more movies, understood", "You left '/offermovie' mode", "You're no longer offering movies"],
+			"ON_EXIT_ADDING_ADMIN_MOVIE": ["The adding is canceled now", "An admin panel again...", "The adding of the movie is dropped"],
+
+			"NO_MOVIES" : ["I'm very sorry, but I couldn't find movies that would satisfy your preferences", "Oh, it's very strange... but it seems like I can't offer anything to you for the time being", "My apologies, I wasn't able to make a sampling, it seems like the collection of ours is not perfect"],
+			"ON_FAILURE": ["Maybe I could make up for it by offering some of my other options\ud83e\udd7a", "Maybe you could try out something different while I'm working on expanding our library?", "You could test another mix of moods and genres"],
+
+			"MOOD_INCORRECT": ["Something's wrong with the mood, check this field one more time", "Something is wrong with the 'mood' format", "The mood seems very suspicious to me... check it more carefully"],
+			"CATALOGUE_INCORRECT": ["I wasn't able to save your offer, check the 'catalogue' you entered more carefully(movie/series)", "Something's wrong with the catalogue(movie/series)", "Your 'movie/series' is incorrect, I wasn't able to save your message"],
+			"GENRE_INCORRECT": ["Check the genre you entered one time", "The format of genre is incorrect", "I cannot read the genre, check your spelling"],
+			"YEAR_INCORRECT": ["Something's wrong with the year", "Check the year format one more time", "Wasn't able to process your movies - enter a year more carefully this time"],
+			"LINK_INCORRECT": ["Link format is incorrect", "Check your link one more time", "I cannot recognize such a link"],
+			"PARAMETERS_AMOUNT_INCORRECT": ["Take a closer look at the amount of parameters, there are 6", "Attention to commas, maybe you entered some extra or on the contrary - not enough", "Focus on the number of movie parameters you entered, this time more carefully"],
+			"MOVIE_LIST_INCORRECT": ["I'm talking about the movie №{movie_index}", "I'm referring to a movie at row #{movie_index}", "We're talking about the row №{movie_index}"],
+
+			"OFFERING_MOVIE": ["The movie was successfully added", "Your movie's now added to the database", "Our movie collection is now replenished with one more movie!"],
+			"OFFERING_SERIAL": ["Your serial was added to the database", "One more serial was successfully added to our collection", "The serial is added"],
+			
+			"ON_USER_OFFERED_MOVIE": ["Wow, our collection can be one movie larger now!", "Great! Now let's hope your offer passes the admins...", "Respect to you! Our collection goes on growing and be unique thanks to you in the first place!"],
+
+			"NO_MOVIES_TO_OFFER_ANYMORE": ["No more offeres", "Movies are run out already", "Those were all the offers"],
+			"NO_MOVIES_TO_OFFER_AT_START": ["No offers in the db for now", "Offer list is empty", "New movies weren't offered yet\ud83e\udd37\u200d\u2642\ufe0f"],
+			"MOVIE_ACCEPTED": ["Hey, good news!\nYour movie was accepted by admins\ud83d\ude0c", "The movie you offered was accepted, now our library got a bit larger\ud83c\udf1d", "The movie's accepted! The admins let your offer through\ud83d\udc4f"],
+			"MOVIE_CANCELED": ["Unfortunately, the admins didn't let your movie through\ud83e\udd27", "The movie you offered wasn't added to the library, sorry\ud83d\udc94", "Your offer was declined, this is all admins...\ud83d\ude14"]
+		},
+
+		"USER_DEVIATION_MESSAGES": ["Don't know how to process something like this...", "Unknown language for me...", "Cannot recognize that"],
+		"SS_DEVIATION_MESSAGES": ["How about finishing Smart Search?", "Smart Search is not completed yet", "Smart Search first!"],
+		"SETTINGS_DEVIATION_MESSAGES": ["Let's finish the work on me first", "But... what about my improvements\ud83e\udd7a", "How about the settings?"],
+		"SF_DEVIATION_MESSAGES": ["I won't react on any silly things until you share your experience of watching with me\ud83d\ude08", "Please, finish your review first", "Sorry, but your impression about a watched movie is the only interest for me now"],
+		"NP_DEVIATION_MESSAGES": ["Finish this section first", "Before leaving, end this caregory", "This section is not completed yet"],
+
+		"ADMIN_MODE_MESSAGES": 
+		{
+			"ADMIN_WELCOME": ["Admin {user_name}, welcome to the admin mode", "Admin {user_name}, it's been a long time... anyways, interaction with the Database is available", "Admin {user_name}, greetings! These are new available commands"],
+			"ADMIN_FAREWELL": ["Admin mode is off", "Admin mode was turned off", "Admin mode was switched off", "You're no longer in Admin mode"],
+			
+			"NO_FEEDBACKS": ["No ratings yet", "Seems like the database is empty...", "No available records"],
+			"FEEDBACKS_RAN_OUT": ["Records ran out already", "You selected all the ratings already", "No records for now anymore"],
+			"ADMIN_CONTINUE": ["Do you want to continue?", "You wish to proceed?", "What's next?"],
+			"FEEDBACKS_SAMPLE": "\n\n<b>Name:</b> {movie_name}\n<b>Mood:</b> {mood}\n<b>Feedback:</b> {verdict}\n<b>Comment:</b> {comment}",
+			"EXCEL_SENDING": ["Enjoy\ud83d\ude04", "Good luck...", "Pleasant pasttime\ud83d\ude01"],
+			"NO_EXCEL_SENDING": ["No records with Smart search yet", "It seems like no one hasn't used Smart Search yet", "DB is empty yet"],
+			"DB_UPDATED": ["Success! Although you could add some more...", "As they say 'Movies do not happen much'\ud83d\ude01", "Added! But I seek more movies..."],
+			"DB_NOT_UPDATED": ["There aren't any changes in the google sheet for now", "At the moment, the google sheet and DB are the same", "New movies haven't been added yet"],
+
+			"NOT_AN_ADMIN": ["Access denied", "You won't trick me, you're not an admin!", "Only the Chosen May Wield"],
+			"AM_DEVIATION_MESSAGES": ["Finish admin-mode commands first, please", "We'll jump into it as soon as we finish here", "Admin-mode is not finished yet"]
+		},
+
+		"SS_PROCESSING_MESSAGES": 
+		{
+			"AT_LAUNCH_GREETINGS": ["It's a movie time! 3.. 2.. 1..", "Time to eat some popcorn then..."],
+			"MOOD_SELECTION": ["Now, let me know your spirit condition", "Share your mood with me"],
+			"CATALOGUE_SELECTION": ["Understood, now you'd want to watch...", "Roger that, now would you rather watch a movie or start watching some cool series?"],
+			"GENRE_SELECTION": ["Ok then, here is maybe the most difficult part... choose a genre:", "Well-well, what about a genre?"],
+			"SS_VERIFYING": ["Did I catch you right?\n\nMood: <b>{user_mood}</b>\nPreference: <b>{user_catalogue}</b>\nGenre: <b>{user_genre}</b>", "Let's make sure I got everything correct\ud83d\ude4f\n\nMood: <b>{user_mood}</b>\nPreference: <b>{user_catalogue}</b>\nGenre: <b>{user_genre}</b>"],
+			"SS_VERIFIED": ["Great, let's find something for you!", "Brilliant, give me a minute to find something..."],
+			"SS_SAMPLING": ["Look at that, I've got something for you!\n\u261e", "You'll definitely find something for yourself here\n\u261e", "Well, it wasn't that simple... but I made a sampling for you anyway!\n\u261e"],
+			"ON_FINISH": ["Don't forget to share your impressions with me through '{feedback_btn}' after watching", "Don't forget about '{feedback_btn}', I'd be very pleased to take a review from you!", "I'm ready to hear you out after watching - '{feedback_btn}'"]
+		},
+
+		"SS_BACK_MESSAGES": 
+		{
+			"ON_MOOD_SELECTION_BACK": ["Want to try some other category?", "Hey, I got three more options!"],
+			"ON_CATALOGUE_SELECTION_BACK": ["Your mood changes so quickly...", "Want to change the mood?"],
+			"ON_GENRE_SELECTION_BACK": ["Changed your mind?", "Getting back..."],
+			"ON_SUMMARY_SELECTION_BACK": ["Changed your mind about the genre?", "I wouldn't watch that genre now too, actually..."],
+			"ON_SUMMINGUP_SELECTION_BACK": ["Okay, let's try that again", "Go ahead and try again"]
+		},
+
+		"SF_PROCESSING_MESSAGES": 
+		{
+			"MOVIE_SELECTION": ["What movie you want to leave feedback about?", "So, you've watched...", "Select movie you've watched"],
+			"VERDICT_SELECTION": ["How it was?", "Was your time worth it?", "How was the movie?"],
+			"COMMENT_WRITING": ["And now, leave a comment", "Now you can write a small comment on the movie", "And one more step - leave a comment"],
+			"ON_FINISH": ["Nice job, feedback's saved", "I've noted everything, thank'ee", "Well, feedbacks do not happen much, maybe it's time to organize them..."],
+			"TO_MAIN_MENU": ["Movies, series, cartoons, whatever you want!", "Maybe you still want to watch something else? One more movie won't hurt", "Maybe one more, huh?"],
+
+			"NOT_IN_TABLE": ["It won't take more than a few minutes", "It shouldn't take that long", "It won't take you long"],
+			"GOOGLE_FORM_SELECTION": ["Thanks for filling in the form, I know how hard it was", ""]
+		},
+
+		"SF_BACK_MESSAGES":
+		{
+			"ON_MOVIE_SELECTION_BACK": ["What we try now?", "Well, maybe another time... where to now?", "Already in the main menu!"],
+			"ON_VERDICT_SELECTION_BACK": ["Mixed up a movie name?", "Movie name was incorrect?", "You want to change the movie name?"]
+		},
+
+		"NP_PROCESSING_MESSAGES":
+		{
+			"ON_START": ["Hmm... what can I find...", "Okay then, let's find something for you", "What would you like to watch right now..."],
+			"NO_MOVIES_LEFT": ["It seems like we're out of movies\ud83d\ude10 Sorry...", "It turns out to be our library is not internal... We're sorry", "No movies left\ud83e\udee1"]
+		},
+
+		"WR_PROCESSING_MESSAGES":
+		{
+			"MESSAGE_SAMPLE": "<a href='{poster_link}'>{word_joiner}</a><b>Name:</b> {movie_name}\n<b>Year:</b> {release_year}\n<b>Director:</b> {director}\n<b>Top cast:</b> {top_cast}\n<b>Storyline:</b>\n{storyline}\n\n<a href='{details_link}'>more detail...</a>",
+
+			"WR_AT_START": ["Pleasant viewing \ud83d\ude0a", "I hope it won't be so hard to choose \ud83d\ude05", "It's time you stocked up on some popcorn \ud83c\udf7f"],
+			"PLEASANT_VIEWING": ["I think you'll definitely like the movie!", "It's time you stocked up on some yummies\ud83e\udd6a", "Nice choice!"]
+		},
+
+		"HELP_COMMAND_PARTS": 
+		{
+			"SS_DESCRIPTION": "<u>\ud83c\udfacSmart Search</u>\nis a sampling of movies and series based on your preferences: mood, genre, movie/series. This is the point of me existing. I try to make a perfect selection for you according to your current spiritual state",
+			"WR_DESCRIPTION": "<u>\ud83c\udfafOur choice</u>\nOpens soon...",
+			"NP_DESCRIPTION": "<u>\ud83d\udc40No idea</u>\nOpens soon...",
+			"SF_DESCRIPTION": "<u>\ud83c\udfadFeedback</u>\nis an option that allows you share your good or bad experience about a watched movie. All your comments read the admins themselves, so you could say hello. The more feedbacks you leave, the more smarter I'm becoming\ud83d\udc68\u200d\ud83c\udf93"
+		}
+	},
+
+	"russian": 
+	{
+		"MainMenuButtons":
+		{
+			"SMART_SEARCH_BTN": "\ud83c\udfac Подборчик",
+			"WE_RECOMMEND_BTN": "\ud83c\udfaf Топчик",
+			"NO_PREFERENCES_BTN": "\ud83d\udc40 Незнайка",
+			"SEND_FEEDBACK_BTN": "\ud83c\udfad Обратка"
+		},
+
+		"LANG_CMD": 
+		{
+			"START_DESC": "Запустить меня",
+			"HELP_DESC": "Показать помощь",
+			"LANG_DESC": "Сменить язык на \u2615\ufe0f",
+			"SETTINGS_DESC": "Настроить меня",
+			"OFFERMOVIE_DESC": "Расширить библиотеку",
+			
+			"ON_CHANGED_LANGUAGE": ["Русский, так русский", "Теперь поговорим по-русски \ud83d\ude08", "Переключился на русский"]
+		},
+
+		"GOOGLE_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSdxvEjsuCvtJDI7iAZs0zIYN6iln3tZgzn3zHanfJxeHGgrjA/viewform",
+
+		"RUS_LANG_BTN": "\ud83d\udc3b Русский",
+
+		"MOVIE_OFFERING_BACK_BTN": "\u2199\ufe0f Закончить предложение",
+		"MOVIE_ADDING_BACK_BTN": "\u2199\ufe0f Закончить добавление",
+
+		"InlineKeyboardTexts":
+		{
+			"UserMood": 
+			{
+				"DEPRESSION_BTN": "\ud83c\udf27 Депрессия",
+				"CHEERFUL_BTN": "\ud83d\udc83 Весёлое",
+				"FIGHTING_SPIRIT_BTN": "\ud83d\ude3c Боевое",
+				"FAMILY_BTN": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 Семья",
+				"FRIENDS_BTN": "\ud83c\udf7b Друзья",
+				"LOVE_BTN": "\ud83d\udc8b Любовь"
+			},
+
+			"Catalogue": 
+			{
+				"MOVIE_BTN": "\ud83d\udcfc Фильм",
+				"SERIES_BTN": "\ud83c\udf9e\ufe0f Сериал"
+			},
+
+			"Genre": 
+			{
+				"Main": 
+				{
+					"COMEDY_BTN": "\ud83d\udd7a Комедия",
+					"DRAMA_BTN": "\ud83d\udc94 Драма",
+					"MELODRAMA_BTN": "\ud83d\udc98 Мелодрама",
+					"THRILLER_BTN": "\ud83d\udd2b Триллер",
+					"ACTION_BTN": "\ud83d\udd25 Боевик",
+					"FICTION_BTN": "\ud83e\uddd9\ud83c\udffb Фантастика"
+				},
+
+				"More": 
+				{
+					"DETECTIVE_BTN": "\ud83d\udd75\ud83c\udffc Детектив",
+					"FAMILY_BTN": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc66 Семейное",
+					"FANTASY_BTN": "\ud83d\udd2e Фэнтези",
+					"SPORT_BTN": "\ud83c\udfc0 Спорт",
+					"ANIMATION_BTN": "\ud83e\uddf8 Мультфильм",
+					"ADVENTURE_BTN": "\ud83c\udf92 Приключение",
+			        "BIOGRAPHY_BTN": "\ud83d\udcd6 Биография",
+			        "CRIMINAL_BTN": "\ud83d\udc65 Криминал",
+					"DOCUMENTARY_BTN": "\ud83c\udfa5 Документальное",
+					"WAR_BTN": "\ud83e\ude96 Военное",
+					"MUSIC_BTN": "\ud83c\udfbb Музыка"
+				},
+
+				"MORE_BTN": "Ещё \u21aa"
+			},
+
+			"SSConfirmation": 
+			{
+				"YES_BTN": "\u2714\ufe0f  Да",
+				"NO_BTN": "\u2716\ufe0f Нет"
+			},
+
+			"SettingsMenu":
+			{
+				"SETTINGS_BACK_BTN": "\u21d0 Назад"
+			},
+
+			"AdminSelection": 
+			{
+				"FEEDBACKS_BTN": "\ud83c\udfad Посмотреть оценки",
+				"OFFERS_BTN": "\ud83d\udceb Предложка",
+				"ADD_ADMIN_MOVIE_BTN": "\ud83d\udcfc Добавить фильм",
+				"EXCEL_BTN": "\ud83d\uddc4 Excel",
+				"UPDATE_DB_BTN": "\ud83d\uddff Обновить БД",	
+
+				"ACCEPT_BTN": "\u2705 Принять",
+				"CANCEL_BTN": "\u274c Отклонить",
+				"MOVIE_OFFERS_BACK_BTN": "\u2b05 Назад",
+
+				"NEXT_FEEDBACK_BTN": "Дальше \u21a6",
+				"FEEDBACKS_BACK_BTN": "\u21a4 Назад",
+
+				"EXIT_ADMIN_MODE_BTN": "\ud83d\ude48 Выйти"
+			},
+
+			"SFVerdict":
+			{
+				"NOT_BAD_BTN": "Было не так уж и плохо \ud83d\ude0c",
+				"GOOD_BTN": "Не то что я ожидал \ud83e\udee4",
+				"DONT_KNOW_BTN": "Смешанные чувства \ud83e\udd14"
+			},
+
+			"WeRecommend": {
+				"WR_PREVIOUS_MOVIE_BTN": "\u2b05 Предыдущий",
+				"WR_NEXT_MOVIE_BTN": "Следующий \u27a1",
+				"WR_WATCH_BTN": "Смотреть \ud83d\uddff",
+				"WR_VIEW_MOVIE_BTN": "Смотреть \ud83d\udcfa",
+				"WR_BACK_BTN": "\u2199\ufe0f В главное меню"
+			},
+
+			"SF_GOOGLE_FORM_BTN": "Гугл формочка",
+
+			"NP_NEXT_MOVIE_BTN": "Следующее \u27a1",
+
+
+			"SS_BACK_BTN": "\u2b05 Назад",
+			"SF_BACK_BTN": "\u2199\ufe0f В главное меню",
+			"NP_BACK_BTN": "\u2199\ufe0f В главное меню"
+		},
+
+		"InlineKeyboardCallbacks":
+		{
+			"UserMood": 
+			{
+				"DEPRESSION_CB": "депрессия",
+				"CHEERFUL_CB": "весёлое",
+				"FIGHTING_SPIRIT_CB": "боевое",
+				"FAMILY_CB": "семья",
+				"FRIENDS_CB": "друзья",
+				"LOVE_CB": "любовь"
+			},
+
+			"Catalogue": 
+			{
+				"MOVIE_CB": "фильм",
+				"SERIES_CB": "сериал"
+			},
+
+			"Genre": 
+			{
+				"Main": 
+				{
+					"COMEDY_CB": "комедия",
+					"DRAMA_CB": "драма",
+					"MELODRAMA_CB": "мелодрама",
+					"THRILLER_CB": "триллер",
+					"ACTION_CB": "боевик",
+					"FICTION_CB": "фантастика"
+				},
+
+				"More": 
+				{
+					"DETECTIVE_CB": "детектив",
+					"FAMILY_CB": "семейное",
+					"SPORT_CB": "спорт",
+					"FANTASY_CB": "фэнтези",
+					"ANIMATION_CB": "мультфильм",
+					"ADVENTURE_CB": "приключение",
+					"BIOGRAPHY_CB": "биография",
+					"CRIMINAL_CB": "криминал",
+					"DOCUMENTARY_CB": "документальное",
+					"WAR_CB": "военное",
+					"MUSIC_CB": "музыка"
+				},
+
+				"MORE_CB": "more"
+			},
+
+			"SSConfirmation": 
+			{
+				"YES_CB": "да",
+				"NO_CB": "нет"
+			},
+
+			"SettingsMenu":
+			{
+				"SETTINGS_BACK_CB": "settings_back"
+			},
+
+			"AdminSelection": 
+			{
+				"FEEDBACKS_CB": "feedbacks_cb",
+				"OFFERS_CB": "offers_cb",
+				"ADD_ADMIN_MOVIE_CB": "add_admin_movie_cb",
+				"EXCEL_CB": "excel_cb",
+				"UPDATE_DB_CB": "update_db_cb",
+
+				"ACCEPT_CB": "accept_cb",
+				"CANCEL_CB": "cancel_cb",
+				"MOVIE_OFFERS_BACK_CB": "movie_offers_back_cb",
+
+				"NEXT_FEEDBACK_CB": "next_feedback_cb",
+				"FEEDBACKS_BACK_CB": "feedbacks_back_cb",
+
+				"EXIT_ADMIN_MODE_CB": "exit"
+			},
+
+			"SFVerdict":
+			{
+				"NOT_BAD_BTN": "not_bad_cb",
+				"GOOD_BTN": "good_cb",
+				"DONT_KNOW_BTN": "dont_know_cb"
+			},
+
+			"WeRecommend": {
+				"WR_PREVIOUS_MOVIE_CB": "previous_one_cb",
+				"WR_NEXT_MOVIE_CB": "wr_next_one_cb",
+				"WR_WATCH_CB": "watch_cb",
+				"WR_VIEW_MOVIE_CB": "watch_cb",
+				"WR_BACK_CB": "wr_back_cb"
+			},
+
+			"SF_GOOGLE_FORM_CB": "google_form_cb",
+
+			"NP_NEXT_MOVIE_CB": "np_next_one_cb",
+
+
+			"SS_BACK_CB": "ss_back_cb",
+			"SF_BACK_CB": "sf_back_cb",
+			"NP_BACK_CB": "np_back_cb"
+		},
+
+		"RUS_SS_VARIANTS": 
+		{
+			"USERMOODS": 
+			{
+				"DEPRESSION_CB": "депрессняк",
+				"CHEERFUL_CB": "веселое"
+			},
+
+			"GENRES": 
+			{	
+				"ADVENTURE_CB": "приключения",
+				"WAR_CB": "военные",
+				"ACTION_CB": "боевики"
+			}
+
+		},
+
+		"BOT_WELCOME_MESSAGES": ["Привет {user_name}!\nЯ - <b>{bot_name}</b>, создан чтобы быть твоим собственным гидом в мире кино\nДавай уже что-нибудь тебе подберём!", "Доброго дня {user_name}!\nМеня зовут <b>{bot_name}</b>, истинный поклонник кинематографа\nПозволь я тебе что-нибудь подберу"],
+		"BOT_SECOND_WELCOME_MESSAGES": ["Насколько я помню, мы уже познакомились... Что же, позвольте тогда представить свои команды", "Вроде бы я уже представлялся, если конечно я ничего не путаю... В любом случае, я воспользуюсь моментом и покажу что я могу"],
+
+		"TO_MAIN_MENU": ["Что бы вы хотели сейчас?", "Не знаю как вы, а я бы сейчас посмотрел какой-нибудь хороший фильм...", "А вы знали, что у меня одна из самых больших баз фильмов? Можете проверить сами\ud83d\ude0f"],
+
+		"OLD_KEYBOARD": ["Эта уже старая клавиатура", "Это клавиатура уже не работает", "Эта клавиатура была не рабочая"],
+
+		"SETTINGS_MESSAGES": 
+		{
+			"MAIN_SETTINGS_MESSAGES": ["Как я могу измениться для тебя\ud83e\udd7a", "Уже готов стать лучше\ud83d\udcaa", "What should we change?"]
+		},
+
+		"OFFERING_MOVIE_MESSAGES": 
+		{
+			"ADDING_ADMIN_MOVIE_FORMAT": "<b>Введите фильм/сериал в следующем формате <u>с новой строки (Shift + Enter)</u>:</b>\nНазвание (рус)\nНастроение (рус)\nФильм/Сериал (рус)\nЖанр (рус)\nДата выхода (год)\nСсылка на просмотр (рус)\nНазвание (англ)\nСсылка на просмотр (англ)\nСсылка на постер\n\n<b>Пример:</b>\nИнтерстеллар\nДепрессняк\nФильм\nФантастика/Драма/Приключение\n2014\nhttps://sitename.domain/filename\nInterstellar\nhttps://sitename.domain/filename\nhttps://sitename.domain/filename",
+			"ADDING_USER_MOVIE_FORMAT": "Напишите мне как можно больше информации о фильме (название, год, ссылка)\nПоделитесь, в каком настроении вы его смотрели и какие впечатления он вам оставил?",
+
+			"OFFERING_MOVIE_INCORRECT": ["Неверный формат, не смог запомнить ваше предложение", "Не могу распознать ваши данные, перепроверте их и попробуйте снова", "У меня не получилось понять, попробуйте ещё раз"],
+
+			"OFFERING_MOVIE_DEVIATION": ["Закончите предложение фильма, пожалуйста", "Прежде всего, предложите фильм", "Фильм ещё не был предложен"],
+
+			"ON_EXIT_OFFERING_MOVIE": ["Больше никаких фильмов, понял", "Вы покинули '/offermovie' режим", "Вы больше не предлагаете фильмы"],
+			"ON_EXIT_ADDING_ADMIN_MOVIE": ["Добавление отменено", "Снова в админ панель...", "Добавление фильма сброшено"],
+
+			"NO_MOVIES" : ["Мне очень жаль, но я не смог найти фильмы которые бы удовлетворили вашим предпочтениям", "Очень странно... но похоже что я не могу предложить вам что-нибудь, что бы вам подошло", "Мои извинения, но я не смог сделать для вас подборку, видимо наша коллекция не идеальна"],
+			"ON_FAILURE": ["Может я бы мог как-нибудь загладить вину, предложив другие опции\ud83e\udd7a", "Может вы бы хотели что-нибудь ещё пока я расширяю нашу библиотеку?", "Попробуйте протестировать ещё какой-нибудь микс из настроений и жанров"],
+
+			"MOOD_INCORRECT": ["Что-то не так с 'настроением', проверьте это поле ещё раз", "С форматом 'настроения' что-то не так...", "Поле 'настроения' кажется подозрительным... проверьте его внимательней"],
+			"CATALOGUE_INCORRECT": ["Я не смог сохранить ваше предложение, проверьте 'фильм/сериал' что вы ввели более внимательно", "Что-то не так с каталогом(фильм/сериал)", "Ваш 'фильм/сериал' введён неверно, я не смог сохранить ваше сообщение"],
+			"GENRE_INCORRECT": ["Проверьте жанр что вы ввели ещё один раз", "Формат жанра введён неверно", "Я не могу прочесть жанр, проверьте правописание"],
+			"YEAR_INCORRECT": ["Что-то не так с годом релиза", "Перепроверьте формат года релиза что вы ввели", "Не смог обработать ваши фильмы - в этот раз введите год более внимательно"],
+			"LINK_INCORRECT": ["Формат ссылки неверный", "Проверьте ссылку ещё раз", "Не могу определить такую ссылку"],
+			"PARAMETERS_AMOUNT_INCORRECT": ["Присмотритесь к количеству параметров - их должно быть 6", "Больше внимания на запятые - может вы ввели лишние или их наоборот не хватает", "Повнимательней к числу параметров фильма, давайте ещё раз"],
+			"MOVIE_LIST_INCORRECT": ["Речь о фильме №{movie_index}", "Я имею ввиду фильм на строке #{movie_index}", "Я говорю о фильме №{movie_index}"],
+
+			"OFFERING_MOVIE": ["Фильм был успешно добавлен", "Ваш фильм теперь добавлен в БД", "Наша коллекция фильмов пополнилась ещё одим фильмом!"],
+			"OFFERING_SERIAL": ["Ваш сериал был добавлен в БД", "Теперь ещё один сериал оказался в нашей коллекции!", "Сериал добавлен"],
+			
+			"ON_USER_OFFERED_MOVIE": ["Теперь в нашей коллекции может стать на целый один фильм больше!", "Отлично! Осталось надеятся, что предложение пройдёт через админов...", "Респект! Именно благодаря вам наша коллекция продолжает пополняться и так уникальна!"],
+
+			"NO_MOVIES_TO_OFFER_ANYMORE": ["Предложений больше не осталось", "Фильмы в предложке уже закончились", "Это были все предложения"],
+			"NO_MOVIES_TO_OFFER_AT_START": ["Предложений в базе сейчас нет", "Предложка пока ещё пуста", "Новых предложений не поступало\ud83e\udd37\u200d\u2642\ufe0f"],
+			"MOVIE_ACCEPTED": ["У меня отличные новости!\nВаш фильм был принят админами\ud83d\ude0c", "Предложенный вами фильм был принят, теперь наша библиотека стала чуточку больше\ud83c\udf1d", "Фильм принят! Админы пропустили ваше предложение\ud83d\udc4f"],
+			"MOVIE_CANCELED": ["К сожалению, админы не пропустили ваш фильм\ud83e\udd27", "Предложенный вами фильм не был добавлен админами в библиотеку, sorry\ud83d\udc94", "Ваше предложение было отклонено, это всё админы...\ud83d\ude14"]
+		},
+
+		"USER_DEVIATION_MESSAGES": ["Без понятия как обрабатывать подобное...", "Неизвестный для меня язык...", "Никак не могут понять, о чём вы пишите"],
+		"SS_DEVIATION_MESSAGES": ["Как на счёт для начала закончить Подборчик?", "Умный подбор ещё не закончен", "Сначала Умный подбор!"],
+		"SETTINGS_DEVIATION_MESSAGES": ["Давайте сначала закончим работу здесь", "А как же... моё усовершенствование\ud83e\udd7a", "А что же тогда с настройками?"],
+		"SF_DEVIATION_MESSAGES": ["Я не буду ни на что реагировать пока не дождусь от вас рецензии на фильм\ud83d\ude08", "Сначала, пожалуйста, закончите рецензию", "Я конечно извиняюсь, но пока единственный мой интерес - это ваши впечатления о фильме"],
+		"NP_DEVIATION_MESSAGES": ["Сначала, закончите этот раздел", "Перед уходом сначала закончите эту категорию", "Не знаю что хочу ещё не завершён"],
+
+		"ADMIN_MODE_MESSAGES": 
+		{
+			"ADMIN_WELCOME": ["Админ {user_name}, добро пожаловать в режим админа", "Админ {user_name}, как же долго вас не было... тем не менее, теперь вам доступно взаимодействие с БД", "Админ {user_name}, моё почтение! Теперь вам доступны новые команды"],
+			"ADMIN_FAREWELL": ["Режим админа отключён", "Режим админа был отменён", "Режим админа выключен", "Вы более не в панели админа"],
+			
+			"NO_FEEDBACKS": ["Оценок пока нет", "Похоже, что база данных пуста...", "Записей ещё нет"],
+			"FEEDBACKS_RAN_OUT": ["Записи уже закончились", "Вы просмотрели уже все оценки", "Больше записей пока что нет"],
+			"ADMIN_CONTINUE": ["Идём дальше?", "Желаете продолжить?", "Что далее?"],
+			"FEEDBACKS_SAMPLE": "\n\n<b>Название:</b> {movie_name}\n<b>Настроение:</b> {mood}\n<b>Оценка:</b> {verdict}\n<b>Комментарий:</b> {comment}",
+			"EXCEL_SENDING": ["Наслаждайся\ud83d\ude04", "Удачи...", "Приятного времяпрепровождения\ud83d\ude01"],
+			"NO_EXCEL_SENDING": ["Записей с Умным поиском пока ещё не было", "Похоже, что Умным поиском пока ещё никто не пользовался", "БД пока ещё пуста"],
+			"DB_UPDATED": ["Успех! Хоть можно было бы добавить и больше...", "Как говорится 'Фильмов много не бывает'\ud83d\ude01", "Добавлено! Но мне нужно больше фильмов..."],
+			"DB_NOT_UPDATED": ["Изменений в гугл таблице ещё не было", "Гугл таблица и база фильмов пока одинаковы", "Новых фильмов ещё добавлено не было"],
+
+			"NOT_AN_ADMIN": ["Доступ отклонён", "Ты меня не проведёшь, ты не админ!", "Лишь избранные могут владеть..."],
+			"AM_DEVIATION_MESSAGES": ["Сначала, пожалуйста, доведите дело в панели админа до конца", "Как только мы закончим здесь, сразу перейдём туда", "Панель админа ещё активна!"]
+		},
+
+		"SS_PROCESSING_MESSAGES": 
+		{
+			"AT_LAUNCH_GREETINGS": ["Время фильмов! Начинаем через 3.. 2.. 1..", "Тогда время приготовить попкорн!"],
+			"MOOD_SELECTION": ["И так, поведайте о своём настроении", "Поделитесь настроением"],
+			"CATALOGUE_SELECTION": ["Понял. Ну а сейчас вы бы хотели посмотреть...", "Принято. Сейчас вы бы хотели посмотреть фильм или начали бы смотреть какой-нибудь сериал?"],
+			"GENRE_SELECTION": ["Ок, теперь возможно самая сложная часть... выберите жанр:", "Отлично, что на счёт жанра?"],
+			"SS_VERIFYING": ["Я всё верно записал?\n\nНастроение: <b>{user_mood}</b>\nПредпочтение: <b>{user_catalogue}</b>\nЖанр: <b>{user_genre}</b>", "Давайте перепроверим, вдруг я где-то ошибся\ud83d\ude4f\n\nНастроение: <b>{user_mood}</b>\nПредпочтение: <b>{user_catalogue}</b>\nЖанр: <b>{user_genre}</b>"],
+			"SS_VERIFIED": ["Великолепно, а теперь давайте вам что-нибудь найдём!", "Что же, а теперь дайте мне минутку сделать для вас подбор..."],
+			"SS_SAMPLING": ["Вы только поглядите какую я для вас сделал подборку!\n\u261e", "Вы однозначно найдёте что-нибудь для себя из этой подборки\n\u261e", "... это было не просто, но тем не менее я нашёл кое-что для вас\n\u261e"],
+			"ON_FINISH": ["Не забудьте поделиться впечатлениями после просмотра через '{feedback_btn}'", "Помните о '{feedback_btn}', я бы с радостью принял вашу рецензию!", "Я всегда готов выслушать вас после просмотра фильма - '{feedback_btn}'"]
+		},
+
+		"SS_BACK_MESSAGES": 
+		{
+			"ON_MOOD_SELECTION_BACK": ["Хотите попробовать другую категорию?", "У меня есть ещё целых три опции!"],
+			"ON_CATALOGUE_SELECTION_BACK": ["Ваше настроение так изменчиво...", "Хотите сменить настроение?"],
+			"ON_GENRE_SELECTION_BACK": ["Что-то не так?", "Возвращаемся назад..."],
+			"ON_SUMMARY_SELECTION_BACK": ["Изменили решение о выбранном жанре?", "Меняем жанр..."],
+			"ON_SUMMINGUP_SELECTION_BACK": ["ок, давайте попробуем повторить с начала", "Давай сделаем всё ещё раз"]
+		},
+
+		"SF_PROCESSING_MESSAGES": 
+		{
+			"MOVIE_SELECTION": ["О каком фильмы вы бы хотели оставить рецензию?", "Таак, вы посмотрели...", "Выберите фильм, которые вы посмотрели"],
+			"VERDICT_SELECTION": ["И как оно было?", "Надеюсь, ваше время того стоило?", "Как бы вы описали просмотр?"],
+			"COMMENT_WRITING": ["Сейчас вы можете оставить комментарий", "Теперь, напишите небольшой комментарий", "Ещё один последний шаг - коротенький отзыв"],
+			"ON_FINISH": ["Чётко сработано, фидбек принят", "Отлично, я всё записал", "Ну, обратных связей много не бывает, может настало время их все уже разобрать..."],
+			"TO_MAIN_MENU": ["Фильмы, сериалы, мультфильмы, всё что пожелаете!", "А может ещё что поищем? Ещё один фильм точно не повредит", "Может ещё какой-нибудь фильмец, а?"],
+
+			"NOT_IN_TABLE": ["Формачка всего на пару минут", "Заполнение не займёт много времени", "Вы заполните формочку буквально за несколько минут"]	
+		},
+
+		"SF_BACK_MESSAGES":
+		{
+			"ON_MOVIE_SELECTION_BACK": ["Что попробуем сейчас?", "Ну, значит в другой раз... куда идём теперь?", "Уже в главном меню!"],
+			"ON_VERDICT_SELECTION_BACK": ["Перепутали название фильма?", "Неверно выбрали название фильма?", "Хотите изменить название фильма?"]
+		},
+
+		"NP_PROCESSING_MESSAGES":
+		{
+			"ON_START": ["Хм... чего бы такого найти...", "Хорошо, давайте вам что-нибудь подберём", "Таак, какой бы фильм вы сейчас посмотрели..."],
+			"NO_MOVIES_LEFT": ["Кажись у нас закончились фильмы\ud83d\ude10 Извините...", "Оказывается наша библиотека не бесконечна... Нам очень жаль", "Фильмов больше не осталось\ud83e\udee1"]
+		},
+
+		"WR_PROCESSING_MESSAGES":
+		{
+			"MESSAGE_SAMPLE": "<a href='{poster_link}'>{word_joiner}</a><b>Название:</b> {movie_name}\n<b>Год:</b> {release_year}\n<b>Режиссёр:</b> {director}\n<b>В ролях:</b> {top_cast}\n<b>Обзор:</b>\n{storyline}\n\n<a href='{details_link}'>подробнее...</a>",
+
+			"WR_AT_START": ["Приятного просмотра \ud83d\ude0a", "Надеюсь, выбор сделать будет не сложно \ud83d\ude05", "Самое время запастись попкорном \ud83c\udf7f"],
+			"PLEASANT_VIEWING": ["Думаю, фильм вам точно понравится!", "Самое время запастись вкусняшками\ud83e\udd6a", "Хороший выбор!"]
+		},
+
+		"HELP_COMMAND_PARTS": 
+		{
+			"SS_DESCRIPTION": "<u>\ud83c\udfacУмный подбор</u>\nвыборка из фильмов и сериалов, основанная на ваших предпочтениях: настроение, жанр, фильм/сериал. В этом и суть меня как бота. Я стараюсь сделать такую подборку, где вы сможете найти такой фильм или сериал, который бы соответствовал вашему духовному состоянию",
+			"WR_DESCRIPTION": "<u>\ud83c\udfafРекомендуем</u>\nСкоро открытие...",
+			"NP_DESCRIPTION": "<u>\ud83d\udc40Не знаю что хочу</u>\nСкоро открытие...",
+			"SF_DESCRIPTION": "<u>\ud83c\udfadОбратная связь</u>\nэто опция, позволяющая вам поделиться со мной вашим опытом просмотренного фильма, будь то хорошим или плохим. Ваши комментарии читают лично админы, так что можете передавать им привет. Чем больше фидбеков вы оставляете, тем умнее я становлюсь!\ud83d\udc68\u200d\ud83c\udf93"
+		}
+	}
+}

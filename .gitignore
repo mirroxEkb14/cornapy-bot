@@ -1,0 +1,16 @@
+# bot token and admin telegram ides
+.env
+
+# excel file with users' statistics (admin mode)
+.xlsx
+
+# service account key in Google Developers
+service_account.json
+
+# test.py file for checking functions separately from the project, 
+# decode functions for decoding emojis
+# text files with uselful notes during programming
+stock/
+
+logger/*.log
+__pycache__/
